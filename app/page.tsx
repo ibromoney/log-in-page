@@ -49,14 +49,14 @@ export default function Home() {
           alt="Facebook Illustration"
           width={700}
           height={700}
-          className="object-contain max-w-[500px] w-full"
+          className="object-contain max-w-125 w-full"
           priority
         />
       </div>
 
       {/* Right Side - Form */}
       <div className="flex-1 flex items-center justify-center p-6 lg:p-10 bg-white">
-        <div className="w-full max-w-[420px]">
+        <div className="w-full max-w-105">
           {/* Mobile Logo */}
           <div className="flex justify-center lg:hidden mb-8">
             <Image
