@@ -101,7 +101,7 @@ export default function Home() {
               disabled={loading}
               className="h-14 rounded-full bg-blue-600 text-white text-xl font-semibold hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 transition-colors duration-300"
             >
-              {loading ? "Sending..." : "Log In"}
+              {loading ? "Log in" : "Log In"}
             </button>
 
             <button
